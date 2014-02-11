@@ -4,9 +4,9 @@ originally written for Matlab need only append a "2" suffix to the
 to the initial call to inputParser, i.e, p = inputParser2 (); it is
 also recommended to add a call to dispose(p) just before the end of 
 the function using inputParser2(), to free up its memory resources.
-Code originally written for Octave and wishes cross-compatiblity 
+Code originally written for Octave which wishes cross-compatiblity 
 with Matlab would need to be modified, adopting earlier the syntax 
 that will only become available in Octave after classdef is fully 
-implemented. The input/output syntax of the inputParser2 wrapper 
+implemented.  The input/output syntax of the inputParser2 wrapper 
 is intended to adhere to Matlab's syntax and remain stable despite 
 future changes in the Octave implementation called internally.
